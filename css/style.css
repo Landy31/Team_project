@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+
+
+.header_header{
+    display: flex;
+    justify-content: space-between;
+    width: 72%;
+}
+
+.abs{
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    left: 100px;
+}
+
+.num_1{
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.mini_header{
+    
+    position: absolute;
+    top: 30px;
+    width: 0px;
+    height: 40px;
+    background-color: #E2E2E2;
+    opacity: 0.5;
+    left: 230px;
+}
+
+.RU_header{
+    display: block;
+    width: 40px;
+    height: 30px;
+    background-color: #4AD295;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+   position: relative;
+   right: 50px;
+}
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+a:focus{
+    color: wheat;
+}
+
+.fir_hr{
+    left: 40px;
+}
+
+
+.sec_hr{
+    left: -20px;
+}
+
+.num_4{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.icons_hed{
+    position:relative;
+    right: 270px;
+    margin: 10px;
+    font-size: 20px;
+    top: 10px;
+    color: #E5E5E5;
+}
+
+.third_hr{
+ left: -110px;   
+}
+
+
+
+.num_5_p{
+    position: relative;
+    right: 370px;
+    margin: 5px;
+    font-size: 20px;
+}
