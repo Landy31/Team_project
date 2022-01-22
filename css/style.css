@@ -4,96 +4,96 @@
     font-family: sans-serif;
 }
 
+.Stresobus_main{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    height: 10000px;
+}
 
 
 .header_header{
     display: flex;
     justify-content: space-between;
-    width: 72%;
-}
-
-.abs{
-    margin: 20px;
-    padding: 20px;
-    position: relative;
-    left: 100px;
-}
-
-.num_1{
-   
-    display: flex;
-    justify-content: space-between;
-}
-
-.mini_header{
-    
-    position: absolute;
-    top: 30px;
-    width: 0px;
-    height: 40px;
-    background-color: #E2E2E2;
-    opacity: 0.5;
-    left: 230px;
-}
-
-.RU_header{
-    display: block;
-    width: 40px;
-    height: 30px;
-    background-color: #4AD295;
-    color: white;
-    text-align: center;
-    line-height: 30px;
     font-size: 20px;
-   position: relative;
-   right: 50px;
+}
+
+.mini_hr{
+    height: 40px;
+    width: 0px;
+    position: relative;
+    color: #E2E2E2;
+    border: 1px solid #E2E2E2;
+    top: 35px;
+}
+
+.hr_fir{
+    right: 60px;
+    
+}
+
+.hr_sec{
+    right: 240px;
 }
 
 
-
-
-a{
-    text-decoration: none;
-}
-
-a:focus{
-    color: wheat;
-}
-
-.fir_hr{
-    left: 40px;
+.hr_third{
+right: 400px;
 }
 
 
-.sec_hr{
-    left: -20px;
+.hr_four{
+right: 540px;
+}
+
+
+.hr_five{
+
 }
 
 .num_4{
     display: flex;
     justify-content: space-between;
-   
-}
-
-
-.icons_hed{
-    position:relative;
-    right: 270px;
-    margin: 10px;
-    font-size: 20px;
-    top: 10px;
-    color: #E5E5E5;
-}
-
-.third_hr{
- left: -110px;   
-}
-
-
-
-.num_5_p{
     position: relative;
-    right: 370px;
+    right: 470px;
+    top: 32px;
+}
+
+.header_a{
+    position: relative;
+    right: 145px;
+    top: 30px;
+    margin: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:focus{
+    color: gainsboro;
+}
+
+.ddds{
+    display: block;
+    width: 40px;
+height: 30px;
+background-color: #4AD295;
+color: white;
+text-align: center;
+line-height: 30px;
+right: 150px;
+}
+
+.header_p{
+    position: relative;
+    right: 320px;
+    top: 25px;
     margin: 5px;
-    font-size: 20px;
+}
+
+.header_num{
+    position: relative;
+    right: 580px;
 }
